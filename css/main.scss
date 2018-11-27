@@ -1,0 +1,19 @@
+@import 'cssreset';
+@import 'header';
+@import 'svg';
+@import 'menu';
+@import 'mediaquery';
+
+html, *{
+    box-sizing: border-box;
+    width: 100%;
+}
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #e0e0e0;
+    color: #424242;
+    font-family: 'RobotoDraft';
+    line-height: 1.6;
+}

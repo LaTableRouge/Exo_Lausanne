@@ -1,0 +1,14 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    ul{
+        li{
+        display: flex;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        }
+    }
+}

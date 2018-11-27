@@ -1,0 +1,30 @@
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 5vw;
+}
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.header nav a{
+    padding: 7%;
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+}
+.header nav a:hover {
+    background: #37474f;
+    color: #fff;
+}
+#sun{
+    display: none;
+}

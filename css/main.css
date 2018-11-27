@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header nav a {
+  padding: 7%;
+  color: white;
+  text-decoration: none;
+  line-height: 2;
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+}
+
+.header nav a:hover {
+  background: #37474f;
+  color: #fff;
+}
+
+#sun {
+  display: none;
+}
+
+.Icon {
+  /* Permet de redimensionner en changeant la font-size de l’icône */
+  width: 1.5em;
+  height: 1.5em;
+  /* Bel alignement visuel des icônes avec le texte */
+  vertical-align: -0.15em;
+  /* fill par défaut = valeur de la propriété couleur de son élément parent */
+  fill: white;
+  /* Les paths et les strokes qui dépassent de la viewBox peuvent apparaître dans IE.
+       Si vous utilisez normalize.css, inutile de l’ajouter. */
+  overflow: hidden;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul li {
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  #sun {
+    display: block;
+  }
+  .header nav a {
+    padding: 3%;
+    width: 50%;
+  }
+}
+
+html, * {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e0e0e0;
+  color: #424242;
+  font-family: 'RobotoDraft';
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=main.css.map */
