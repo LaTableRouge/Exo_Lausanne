@@ -8,20 +8,23 @@ h1{
     font-size: 5vw;
 }
 .header{
-    background: black;;
+    background: black;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
 }
 .header nav{
     display: flex;
     justify-content: flex-end;
+    width: 25%;
 }
 .header nav a{
-    padding: 7%;
+    padding: 1%;
     color: $white;
     text-decoration: none;
     line-height: 2;
-    width: 30%;
+    width: 50%;
     text-align: center;
     display: inline-block;
 }
