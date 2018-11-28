@@ -6,4 +6,19 @@
         padding: 3%;
         width: 50%;
     }
+    .menu{
+        margin-top: -9%;
+    }
+    .menu ul{
+        flex-direction: row;
+    }
+    .menu ul li{
+       border-bottom: none;
+       border-left: 1px solid $white;
+    }
+}
+@media only screen and (max-width: 768px){
+    .social{
+        display: none;
+    }
 }

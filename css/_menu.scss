@@ -1,14 +1,27 @@
+@import 'variables';
+
 .menu{
+    margin-top: -17%;
+}
+.menu ul{
     display: flex;
-    justify-content: center;
-    ul{
-        li{
-        display: flex;
-        justify-content: center;
-        a{
-            text-decoration: none;
-            color: white;
-        }
-        }
-    }
+    flex-direction: column;
+}
+.menu ul li{
+    background: rgba(3, 3, 3, 0.5);
+
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    border-bottom: 1px solid $white;
+    line-height: 2.5;
+}
+.menu ul li:hover{
+    background-color: $darker;
+}
+.menu a{
+    text-decoration: none;
+    color: $white;
+    font-weight: bold;
+    font-size: 20px;
 }

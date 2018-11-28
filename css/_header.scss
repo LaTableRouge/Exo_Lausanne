@@ -1,10 +1,12 @@
+@import 'variables';
+
 h1{
-    color: #fff;
+    color: $white;
     text-align: center;
     font-size: 5vw;
 }
 .header{
-    background-color: black;
+    background: black;;
     display: flex;
     align-items: center;
 }
@@ -14,7 +16,7 @@ h1{
 }
 .header nav a{
     padding: 7%;
-    color: white;
+    color: $white;
     text-decoration: none;
     line-height: 2;
     width: 30%;
@@ -22,8 +24,8 @@ h1{
     display: inline-block;
 }
 .header nav a:hover {
-    background: #37474f;
-    color: #fff;
+    background: $header;
+    color: $white;
 }
 #sun{
     display: none;

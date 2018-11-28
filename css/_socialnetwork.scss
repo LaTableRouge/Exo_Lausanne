@@ -1,0 +1,52 @@
+@import 'variables';
+
+.social{
+    position: absolute;
+    top: 20%;
+    width: 10%;
+}
+.icone{
+    text-decoration: none;
+    color: $white;
+}
+.ico{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.ico .icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: $socialnetwork;
+}
+.ico .icone:hover{
+    background: $darker;
+    width: 179%;
+}
+.ico .icone:hover:before{
+    margin: 0 auto;
+}
+.ico .icone:hover:after{
+    margin: 0 auto;
+}
+.ico .ico-facebook:hover:after{
+    content: "Facebook";
+}
+.ico .ico-twitter:hover:after{
+    content: "Twitter";
+}
+.ico .ico-instagram:hover:after{
+    content: "Instagram";
+}
+.ico .ico-pinterest:hover:after{
+    content: "Pinterest";
+}
+.ico .ico-youtube:hover:after{
+    content: "Youtube";
+}
+.ico .ico-linkedin:hover:after{
+    content: "Linkedin";
+}
