@@ -53,6 +53,10 @@ table {
   border-spacing: 0;
 }
 
+.img {
+  width: 80%;
+}
+
 h1 {
   color: #fff;
   text-align: center;
@@ -185,11 +189,7 @@ h1 {
 
 .ico .icone:hover {
   background: #0d2c42;
-  width: 179%;
-}
-
-.ico .icone:hover:before {
-  margin: 0 auto;
+  width: 150px;
 }
 
 .ico .icone:hover:after {
